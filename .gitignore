@@ -306,3 +306,6 @@ TesterMetadata.xml
 
 # Backup files
 .bak
+
+# VS Code
+.vscode/

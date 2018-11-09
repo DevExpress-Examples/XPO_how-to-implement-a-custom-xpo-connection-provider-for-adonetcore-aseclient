@@ -378,7 +378,11 @@ namespace DevExpress.Xpo.DB {
                     if(defaultValue != null) {
                         ReformatReadValueArgs refmtArgs = new ReformatReadValueArgs(DBColumn.GetType(type));
                         refmtArgs.AttachValueReadFromDb(defaultValue);
-                        defaultValue = ReformatReadValue(defaultValue, refmtArgs);
+                        try {
+                            defaultValue = ReformatReadValue(defaultValue, refmtArgs);
+                        } catch {
+                            defaultValue = null;
+                        }
                     }
                 }
 

@@ -5,6 +5,6 @@
     <NetStandardImplicitPackageVersion>2.0.3</NetStandardImplicitPackageVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Xpo" Version="18.2.3" />
+    <PackageReference Include="DevExpress.Xpo" Version="18.2.2" />
   </ItemGroup>
 </Project>

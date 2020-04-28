@@ -4,7 +4,7 @@ This example demonstrates how to implement a custom XPO connection provider for 
 
 The example contains two projects:
 * DevExpress.Xpo.AseClientCore - .NET Standard 2.0 library with the provider.
-* TestingConsoleProject - .NET Core 2.0 Console Application, which uses [XPO for .NET Core](https://www.devexpress.com/Products/NET/ORM/) and AdoNetCore.AseClient to connect to the SAP ASE database.
+* TestingConsoleProject - .NET Core 3.1 Console Application, which uses [XPO for .NET Core](https://www.devexpress.com/Products/NET/ORM/) and AdoNetCore.AseClient to connect to the SAP ASE database.
 
 # See Also
 [Database Systems Supported by XPO](https://documentation.devexpress.com/CoreLibraries/2114/DevExpress-ORM-Tool/Fundamentals/Database-Systems-Supported-by-XPO)<br>
